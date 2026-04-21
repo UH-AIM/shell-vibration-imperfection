@@ -12,7 +12,7 @@ for the results presented in the manuscript and in the SI.
 ## Repository Contents
 
 - **`data/`** — Plot-ready experimental data used to generate the figures.
-- **`scripts/`** — Python scripts that reproduce each figure from the data files.
+- **`plotting/`** — Python scripts that reproduce each figure from the data files.
 - **`manuscript/`** — LaTeX source for the main manuscript and Supplementary Information.
 
 ## Figure-to-Script Mapping
@@ -20,9 +20,9 @@ for the results presented in the manuscript and in the SI.
 | Manuscript Figure | Data                          | Script                    |
 |-------------------|-------------------------------|---------------------------|
 | Fig. 3d           | `data/CSVs/thickness-plotting-*.csv`    | `plotting/thickness-plotting.ipynb`  |
-| Fig. 4c           | `data/CSVs/exp_fem_corr_*.csv`   | `scripts/exp_fem_correlation.ipynb`  |
-| Fig. 4e           | `data/CSVs/thickness_azimuthal_profiles.csv`   | `scripts/thickness-comparison.ipynb`  |
-| Fig. 5            | `data/CSVs/PV_*.csv`     | `scripts/PV_{06,08,10}_plot.ipynb` |
+| Fig. 4c           | `data/CSVs/exp_fem_corr_*.csv`   | `plotting/exp_fem_correlation.ipynb`  |
+| Fig. 4e           | `data/CSVs/thickness_azimuthal_profiles.csv`   | `plotting/thickness-comparison.ipynb`  |
+| Fig. 5            | `data/CSVs/PV_*.csv`     | `plotting/PV_{06,08,10}_plot.ipynb` |
 
 ## Requirements
 
