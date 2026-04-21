@@ -7,7 +7,7 @@ This repository contains digital materials associated with the manuscript:
 > *Nature Communications*, in press.
 
 It is intended to support transparency, reproducibility, and data availability 
-for the results presented in the manuscript.
+for the results presented in the manuscript and in the SI.
 
 ## Repository Contents
 
