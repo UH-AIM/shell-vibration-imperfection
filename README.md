@@ -17,12 +17,18 @@ for the results presented in the manuscript and in the SI.
 
 ## Figure-to-Script Mapping
 
-| Manuscript Figure | Data                          | Script                    |
-|-------------------|-------------------------------|---------------------------|
-| Fig. 3d           | `data/CSVs/thickness-plotting-*.csv`    | `plotting/thickness-plotting.ipynb`  |
-| Fig. 4c           | `data/CSVs/exp_fem_corr_*.csv`   | `plotting/exp_fem_correlation.ipynb`  |
-| Fig. 4e           | `data/CSVs/thickness_azimuthal_profiles.csv`   | `plotting/thickness-comparison.ipynb`  |
-| Fig. 5            | `data/CSVs/PV_*.csv`     | `plotting/PV_{06,08,10}_plot.ipynb` |
+| Manuscript Figure | Data                                      | Script                                    |
+|-------------------|-------------------------------------------|-------------------------------------------|
+| Fig. 3d           | `data/thickness-plotting-08-*.csv`        | `plotting/thickness-plotting.ipynb`       |
+| Fig. 4c           | `data/exp_fem_corr_*.csv`                 | `plotting/exp_fem_correlation.ipynb`      |
+| Fig. 4e           | `data/thickness_azimuthal_profiles.csv`   | `plotting/thickness-comparison.ipynb`     |
+| Fig. 5            | `data/PV_*.csv`                           | `plotting/PV_{06,08,10}_plot.ipynb`       |
+| SI Fig. 1         | `data/stress-strain.csv`                  | `plotting/stress-strain.ipynb`            |
+| SI Fig. 3         | `data/exp_correlation.csv`                | `plotting/exp_correlation.ipynb`          |
+| SI Fig. 7         | `data/color_analysis_{H,S,V}.csv`         | `plotting/color_analysis.ipynb`           |
+| SI Fig. 8         | `data/thickness-plotting-00-*.csv`        | `plotting/thickness-plotting-SI.ipynb`    |
+| SI Fig. 10        | `data/exp_fem_corr_*.csv`                 | `plotting/exp_fem_correlation-full.ipynb` |
+| SI Fig. 11        | `data/pressure-vol.csv`                   | `plotting/pressure-vol.ipynb`             |
 
 ## Requirements
 
